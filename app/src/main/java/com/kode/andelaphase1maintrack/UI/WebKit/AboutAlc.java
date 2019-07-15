@@ -18,6 +18,7 @@ public class AboutAlc extends AppCompatActivity {
 
     WebView mWebview;
     ProgressBar progressBar;
+    private static final String ANDELA_URL = "https://www.andela.com/alc/";
 
 
     @Override
@@ -25,16 +26,17 @@ public class AboutAlc extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_about_alc);
 
+
+        initialiseWebViewToLoad();
+    }
+
+
+    /**
+     * Initilise the views in this
+     * **/
+    private void initialiseWebViewToLoad(){
         mWebview = findViewById(R.id.webview);
         progressBar = findViewById(R.id.progressBar);
-
-       /* if (android.os.Build.VERSION.SDK_INT > 9) {
-            StrictMode.ThreadPolicy policy = new
-                    StrictMode.ThreadPolicy.Builder().permitAll().build();
-            StrictMode.setThreadPolicy(policy);
-        }*/
-
-      //  mWebview = new WebView(this);
 
 
         mWebview.getSettings().setJavaScriptEnabled(true); // enable javascript
@@ -42,7 +44,7 @@ public class AboutAlc extends AppCompatActivity {
 
         mWebview.setWebViewClient(new SSLTolerentWebViewClient());
 
-        mWebview.loadUrl("https://www.andela.com/alc/");
+        mWebview.loadUrl(ANDELA_URL);
         progressBar.setVisibility(View.VISIBLE);
 
     }

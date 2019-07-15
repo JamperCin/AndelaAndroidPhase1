@@ -11,9 +11,9 @@
         android:usesCleartextTraffic="true"
         android:name=".DATA.App.AppApplication"
         android:allowBackup="true"
-        android:icon="@mipmap/ic_launcher"
+        android:icon="@drawable/ic_andela"
         android:label="@string/app_name"
-        android:roundIcon="@mipmap/ic_launcher_round"
+        android:roundIcon="@drawable/ic_andela"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity android:name=".UI.Profile.MyProfileActivity"></activity>

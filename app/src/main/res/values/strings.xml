@@ -1,4 +1,12 @@
 <resources>
     <string name="app_name">AndelaPhase1MainTrack</string>
     <string name="andela">The Andela Learning Community is a network of people technologists and tech enthusiasts across Africa dedicated to learning how to use technology to solve humanity’s problems.</string>
+    <string name="number">\t+233245007680\t</string>
+    <string name="ghana">\t\tGhana\t\t</string>
+    <string name="info">Amankwah, who joined ALC in 2019, came to ALC after being shortlisted among the android development students.
+        \n\nHaving this opportunity to join the ALC,  Now he\'s proudly embracing the software development career in android development
+        while pursuing his college admission into a technology oriented discipline.
+
+
+    </string>
 </resources>
